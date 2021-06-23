@@ -1,4 +1,4 @@
-# Robot Arm control interface
+# Robot Arm Control Interface
 A web page to control a robot arm with 6 sliders each one representing a motor, a button for saving values to the database, and a turn-on button.
 ![interface](https://user-images.githubusercontent.com/86366710/123175098-ddb27400-d489-11eb-8545-305cae4cb96b.png)
 
