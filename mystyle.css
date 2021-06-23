@@ -1,0 +1,85 @@
+body  
+{
+    background-image: url("bg.jpg"); 
+}
+.slider
+{
+    -webkit-appearance: none;
+    height: 11px;
+    background: white;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 1px #424242;
+}
+.slider::-webkit-slider-thumb
+{
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50%;
+}
+
+input[type=range]
+{
+    width: 70%;
+}
+label
+{
+    color: #424242;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.motors
+{
+    
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 70px;
+}
+
+.button
+{
+    color: aliceblue;
+    font-size: 24px;
+    background-color: #424242;
+    border-radius: 12px;
+    box-shadow: 0 4px #999;
+    padding: 15px;
+    margin-left: 30px
+}
+.button:hover 
+{
+    background-color: #2E64FE;
+}
+.button:active 
+{
+  background-color: #2E64FE;
+  box-shadow: 0 0px;
+  transform: translateY(4px);
+}
+#buttonscontainer 
+{
+    margin: 40px 0 0 40%;
+}
+.val
+{
+    padding-right: 30px;
+    font-size: 24px;
+    font-weight: bold;    
+}
+#wrapper
+{
+    width: 800px;
+    height:600px;
+    margin: 7% 19%; 
+    background-color:#F2F2F2; 
+    padding: 40px 200px;
+}
+
+
